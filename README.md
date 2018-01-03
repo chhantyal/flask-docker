@@ -16,7 +16,7 @@ However, Docker makes it really easy, here is how:
 In few steps, you can run on local, your colleague's local, AWS, Azure, anywhere.
 See `Dockerfile`
 
-Docker Container -> Azure Container Registry -> Destination
+Docker Container -> Container Registry -> Cloud
 
 First build container:
 * `docker build . -t flask-docker:0.1`
@@ -29,3 +29,5 @@ If you want to deploy in the cloud:
 * Tag it: `docker tag flask-docker:0.1 container_registry.com/flask-docker:0.1`
 * Push to remote container registry: `docker push container_registry.com/flask-docker:0.1`
 * Run in remote server: `docker run -d -p 80:8000 flask-docker:0.1`
+
+See `Dockerfile` for more detail.
