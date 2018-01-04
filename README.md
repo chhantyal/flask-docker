@@ -11,6 +11,14 @@ However, Docker makes it really easy, here is how:
 - `Docker`: Contenarize codebase + all of the above tech to ship
 
 
+## Try
+
+You can try sample Flask app container from Docker Hub.
+For that, you don't need to clone this git source.
+
+- `docker pull chhantyal/flask-docker:0.1`
+- `docker run -p 8000:8000 flask-docker:0.1`
+
 ## Ship
 
 In few steps, you can run on local, your colleague's local, AWS, Azure, anywhere.
