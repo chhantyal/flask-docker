@@ -16,8 +16,8 @@ However, Docker makes it really easy, here is how:
 You can try sample Flask app container from Docker Hub.
 For that, you don't need to clone this git source.
 
-- `docker pull chhantyal/flask-docker:latest`
-- `docker run -p 8000:8000 flask-docker:latest`
+- `docker pull chhantyal/flask-docker`
+- `docker run -p 8000:8000 flask-docker`
 
 ## Ship
 
